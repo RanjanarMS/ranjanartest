@@ -16,6 +16,7 @@ namespace Test
             double number2 = 5.2;
             AdvancedCalc calc = new AdvancedCalc();
             double sum = calc.Add(number1, number2);
+            Thread.Sleep(30 * 1000);
             Assert.AreEqual(sum, 15.3);
         }
 
@@ -39,6 +40,7 @@ namespace Test
             double number2 = 5.2;
             AdvancedCalc calc = new AdvancedCalc();
             double sum = calc.Add(number1, number2);
+            Thread.Sleep(30 * 1000);
             Assert.AreEqual(sum, 15.3);
         }
 
@@ -63,6 +65,7 @@ namespace Test
             int number2 = 5;
             Calc calc = new Calc();
             int sum = calc.Add(number1, number2);
+            Thread.Sleep(30 * 1000);
             Assert.AreEqual(sum, 15);
         }
 
